@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "thevoid",
+	"version": "${version}",
+	"name": "The Void",
+	"description": "Dive into the Void; Mod by MichaelL",
+	"authors": [
+		"Michael Licholetov || MKcrafter3"
+	],
+	"contact": {
+		"homepage": "mihey.com/the-void",
+		"sources": "mihey.com/the-void-source"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/thevoid/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.mihey.voidmod.TheVoid"
+		],
+		"fabric-datagen": [
+			"com.mihey.voidmod.TheVoidDataGenerator"
+		],
+		"client":[
+			"com.mihey.voidmod.TheVoidClient"
+		]
+	},
+	"mixins": [
+		"thevoid.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.3",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
