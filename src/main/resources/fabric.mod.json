@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "mihey.com/the-void",
-		"sources": "mihey.com/the-void-source"
+		"sources": "https://github.com/Michael-Likh/The-Void-MC"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/thevoid/icon.png",
