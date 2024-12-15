@@ -1,3 +1,6 @@
 {
-  "item.thevoid.test_item": "Test Item"
+  "item.thevoid.test_item": "Test Item",
+  "key.category.r-key": "R key",
+  "key.thevoid.test_keybind_1": "Test 1"
+
 }
