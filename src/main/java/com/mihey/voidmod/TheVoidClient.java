@@ -7,7 +7,7 @@ public class TheVoidClient implements ClientModInitializer {
     public void onInitializeClient() {
 
         System.out.println("The_Void_Client initialized!");
-        
+
 
     }
 }

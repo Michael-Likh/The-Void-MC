@@ -1,5 +1,6 @@
 package com.mihey.voidmod;
 
+import com.mihey.voidmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
@@ -17,7 +18,7 @@ public class TheVoid implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		System.out.println("The_Void initialized!");
-
+		ModItems.registerModItems();
 	}
 
 
