@@ -1,0 +1,13 @@
+/datapack list
+/execute in minecraft:the_nether
+/reload
+/datapack list
+/execute in thevoid:void run tp @s ~ ~ ~
+/time set day
+/execute in thevoid:void
+/execute in thevoid:void run tp @s ~ ~ ~
+/execute in minecraft:overworld run tp @s ~ ~ ~
+/execute in thevoid:void run tp @s ~ ~ ~
+/execute in minecraft:overworld run tp @s ~ ~ ~
+/execute in thevoid:void run tp @s ~ ~ ~
+/effect give Player254 minecraft:night_vision infinite 1 true
