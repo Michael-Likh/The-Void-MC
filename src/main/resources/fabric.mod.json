@@ -3,7 +3,7 @@
 	"id": "thevoid",
 	"version": "${version}",
 	"name": "The Void",
-	"description": "Dive into the Void; Mod by MichaelL",
+	"description": "Dive into the Void; Mod by MichaeL",
 	"authors": [
 		"Michael Licholetov || MKcrafter3"
 	],
@@ -11,7 +11,7 @@
 		"homepage": "mihey.com/the-void",
 		"sources": "https://github.com/Michael-Likh/The-Void-MC"
 	},
-	"license": "CC0-1.0",
+	"license": "CC BY 4.0",
 	"icon": "assets/thevoid/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -30,7 +30,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.16.9",
-		"minecraft": "~1.21.3",
+		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*",
 		"fabric-key-binding-api-v1": "*"
